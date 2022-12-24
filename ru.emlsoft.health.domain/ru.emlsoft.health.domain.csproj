@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>ru.emlsoft.health.domain</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Data\ru.emlsoft.data.domain\ru.emlsoft.data.domain.csproj" />
+  </ItemGroup>
+
+</Project>
