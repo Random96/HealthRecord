@@ -13,6 +13,8 @@ namespace ru.emlsoft.health.model
         public ModelProfile()
         {
             CreateMap<Clinic.Clinic, ClinicDto>();
+            CreateMap<ClinicDto, Clinic.Clinic>();
+            CreateMap<Clinic.Clinic, Clinic.Clinic>();
         }
     }
 }

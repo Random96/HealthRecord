@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ru.emlsoft.data.domain;
 using ru.emlsoft.health.domain.Clinic;
+using ru.emlsoft.health.dto;
 
 namespace ru.emlsoft.health.model.Clinic
 {
