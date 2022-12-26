@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ru.emlsoft.data.domain;
+using ru.emlsoft.data;
 using ru.emlsoft.health.domain.Clinic;
 using ru.emlsoft.health.dto;
 

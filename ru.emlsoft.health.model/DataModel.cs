@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using ru.emlsoft.data;
+using ru.emlsoft.data.ef;
 
 namespace ru.emlsoft.health.model
 {

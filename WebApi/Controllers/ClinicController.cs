@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using NuGet.Common;
 using ru.emlsoft.data;
-using ru.emlsoft.data.domain;
 using ru.emlsoft.health.domain.Clinic;
 using ru.emlsoft.health.dto;
 using ru.emlsoft.health.model.Clinic;

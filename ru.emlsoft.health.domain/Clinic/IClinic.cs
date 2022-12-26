@@ -1,7 +1,8 @@
-﻿using System;
+﻿using ru.emlsoft.data;
+using System;
 using System.Collections.Generic;
 using System.Text;
-using ru.emlsoft.data.domain;
+
 
 namespace ru.emlsoft.health.domain.Clinic
 {

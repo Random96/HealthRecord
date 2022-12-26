@@ -1,7 +1,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using ru.emlsoft.data;
-using ru.emlsoft.data.domain;
-using ru.emlsoft.data.Repository;
+using ru.emlsoft.data.ef;
+using ru.emlsoft.data.ef.Repository;
 using ru.emlsoft.health.model;
 
 Func<IServiceProvider, IDataModel> factoryDb = null!;
