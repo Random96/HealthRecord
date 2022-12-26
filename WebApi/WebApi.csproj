@@ -15,8 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Data\ru.emlsoft.data.domain\ru.emlsoft.data.domain.csproj" />
-    <ProjectReference Include="..\..\Data\ru.emlsoft.data\ru.emlsoft.data.csproj" />
     <ProjectReference Include="..\ru.emlsoft.health.domain\ru.emlsoft.health.domain.csproj" />
     <ProjectReference Include="..\ru.emlsoft.health.model\ru.emlsoft.health.model.csproj" />
   </ItemGroup>
