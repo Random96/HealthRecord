@@ -1,7 +1,7 @@
 ﻿using System;
 using ru.emlsoft.health.domain.Clinic;
 
-namespace ru.emlsoft.health.dto
+namespace ru.emlsoft.health.dto.Clinic
 {
     public class ClinicDto : IClinic
     {

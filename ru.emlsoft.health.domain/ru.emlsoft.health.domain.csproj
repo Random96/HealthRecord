@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="ru.emlsoft.data" Version="1.0.0" />
+    <ProjectReference Include="..\..\Data\ru.emlsoft.data\ru.emlsoft.data.csproj" />
   </ItemGroup>
 
 </Project>

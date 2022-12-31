@@ -6,11 +6,11 @@ namespace WebApi.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class CrudController<Dto, Model> : ControllerBase where Model : class, IKeyable where Dto : class
+    public class CrudController<Dto> : ControllerBase where Dto : class
     {
-        protected readonly ILogger<CrudController<Dto, Model>> _logger;
-        protected readonly IRepository<Dto,Model> _repo;
-        public CrudController(IRepository<Dto, Model> repo, ILogger<CrudController<Dto, Model>> logger)
+        protected readonly ILogger<CrudController<Dto>> _logger;
+        protected readonly IRepository<Dto> _repo;
+        public CrudController(IRepository<Dto> repo, ILogger<CrudController<Dto>> logger)
         {
             _logger = logger;
             _repo = repo;
@@ -19,9 +19,9 @@ namespace WebApi.Controllers
         [HttpGet]
         public async Task<IEnumerable<Dto>> Get([FromQuery] PageParameters pageParams, CancellationToken token = default)
         {
-            _logger.LogInformation("Get page {0}. Row in page {1} - Start", pageParams.PageNumber, pageParams.PageSize);
+            _logger.LogInformation("Get page {PageNumber}. Row in page {PageSize} - Start", pageParams.PageNumber, pageParams.PageSize);
 
-            var ret = await _repo.GetPageAsync(pageParams.PageNumber, pageParams.PageSize, pageParams.Filters, pageParams.Orders, token);
+            var ret = await _repo.GetPageAsync(pageParams.PageNumber, pageParams.PageSize, pageParams.Filters, pageParams.Orders, false, token);
 
             if (ret == null)
                 return Array.Empty<Dto>();

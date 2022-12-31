@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
-using ru.emlsoft.health.dto;
+using ru.emlsoft.health.dto.Clinic;
 
 namespace ru.emlsoft.health.model
 {
@@ -15,6 +15,11 @@ namespace ru.emlsoft.health.model
             CreateMap<Clinic.Clinic, ClinicDto>();
             CreateMap<ClinicDto, Clinic.Clinic>();
             CreateMap<Clinic.Clinic, Clinic.Clinic>();
+
+
+            CreateMap<Clinic.Doctor, DoctorDto>();
+            CreateMap<DoctorDto, Clinic.Doctor>();
+            CreateMap<Clinic.Doctor, Clinic.Doctor>();
         }
     }
 }

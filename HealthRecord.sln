@@ -11,6 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ru.emlsoft.health.model", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ru.emlsoft.health.dto", "ru.emlsoft.health.dto\ru.emlsoft.health.dto.csproj", "{580886A4-17E2-4B4A-9CB8-59985BF4CA91}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ru.emlsoft.data", "..\Data\ru.emlsoft.data\ru.emlsoft.data.csproj", "{A920CB58-E1CB-4960-9066-90E43EBB7F76}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ru.emlsoft.data.ef", "..\Data\ru.emlsoft.data.ef\ru.emlsoft.data.ef.csproj", "{078061A5-AAAA-40EF-B415-5D9DD419B6F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{580886A4-17E2-4B4A-9CB8-59985BF4CA91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{580886A4-17E2-4B4A-9CB8-59985BF4CA91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{580886A4-17E2-4B4A-9CB8-59985BF4CA91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A920CB58-E1CB-4960-9066-90E43EBB7F76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A920CB58-E1CB-4960-9066-90E43EBB7F76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A920CB58-E1CB-4960-9066-90E43EBB7F76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A920CB58-E1CB-4960-9066-90E43EBB7F76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{078061A5-AAAA-40EF-B415-5D9DD419B6F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{078061A5-AAAA-40EF-B415-5D9DD419B6F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{078061A5-AAAA-40EF-B415-5D9DD419B6F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{078061A5-AAAA-40EF-B415-5D9DD419B6F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

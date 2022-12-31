@@ -1,16 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-using ru.emlsoft.data;
 using ru.emlsoft.data.ef;
+using System;
+using System.Linq;
 
 namespace ru.emlsoft.health.model
 {
-    public class DataModel : DbContext, IDataModel
+    internal class DataModel : DbContext, IDataModel
     {
         readonly string? _error;
         readonly bool _inited;
@@ -47,8 +43,6 @@ namespace ru.emlsoft.health.model
             base.OnModelCreating(modelBuilder);
         }
 
-#pragma warning disable CS8618
         public DbSet<Clinic.Clinic> Clinics { get; set; }
-#pragma warning restore CS8618
     }
 }

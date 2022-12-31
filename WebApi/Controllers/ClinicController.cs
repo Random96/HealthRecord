@@ -2,15 +2,15 @@
 using NuGet.Common;
 using ru.emlsoft.data;
 using ru.emlsoft.health.domain.Clinic;
-using ru.emlsoft.health.dto;
+using ru.emlsoft.health.dto.Clinic;
 using ru.emlsoft.health.model.Clinic;
 
 namespace WebApi.Controllers;
 
 
-public class ClinicController : CrudController<ClinicDto, Clinic>
+public class ClinicController : CrudController<ClinicDto>
 {
-    public ClinicController(IRepository<ClinicDto, Clinic> repo, ILogger<CrudController<ClinicDto, Clinic>> logger) : base(repo, logger) { }
+    public ClinicController(IRepository<ClinicDto> repo, ILogger<CrudController<ClinicDto>> logger) : base(repo, logger) { }
 
 
 }

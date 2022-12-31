@@ -9,7 +9,7 @@ using ru.emlsoft.health.dto;
 
 namespace ru.emlsoft.health.model.Clinic
 {
-    public class Clinic : IClinic, IKeyable
+    internal class Clinic : IClinic, IKeyable
     {
         public int Id { get; set; }
         public string Name { get; set; } = string.Empty;

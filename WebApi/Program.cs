@@ -4,7 +4,6 @@ using ru.emlsoft.data.ef;
 using ru.emlsoft.data.ef.Repository;
 using ru.emlsoft.health.model;
 
-Func<IServiceProvider, IDataModel> factoryDb = null!;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -14,14 +13,11 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-var connectionString = builder.Configuration.GetConnectionString("HealthDb");
-factoryDb = x => new DataModel(connectionString, x.GetRequiredService<ILogger<DataModel>>());
-
-
-builder.Services.AddScoped(typeof(IRepository<,>),typeof(Repository<,>));
-builder.Services.AddScoped(typeof(IDataModel), factoryDb);
 builder.Services.AddAutoMapper(typeof(ModelProfile));
 
+var connectionString = builder.Configuration.GetConnectionString("HealthDb");
+ru.emlsoft.health.model.Register.RegisterBase(builder.Services, connectionString);
+ru.emlsoft.data.ef.Register.RegisterBase(builder.Services);
 
 var app = builder.Build();
 
