@@ -2,10 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>ru.emlsoft.health.domain</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ru.emlsoft.health.domain\ru.emlsoft.health.domain.csproj" />
+    <ProjectReference Include="..\..\EfRepo\ru.emlsoft.data\EmlSoft.Data.csproj" />
   </ItemGroup>
 
 </Project>

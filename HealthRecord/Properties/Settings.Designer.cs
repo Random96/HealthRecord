@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ru.emlsoft.HealthRecord.Properties {
+namespace EmlSoft.HealthRecord.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

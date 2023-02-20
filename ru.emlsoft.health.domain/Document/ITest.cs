@@ -1,10 +1,9 @@
-﻿using System;
+﻿using EmlSoft.Health.Domain.Clinic;
+using EmlSoft.Health.Domain.Medicine;
+using System;
 using System.Collections.Generic;
-using System.Text;
-using ru.emlsoft.health.domain.Clinic;
-using ru.emlsoft.health.domain.Medicine;
 
-namespace ru.emlsoft.health.domain.Document
+namespace EmlSoft.Health.Domain.Document
 {
     public interface ITest
     {

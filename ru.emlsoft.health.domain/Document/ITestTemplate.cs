@@ -1,9 +1,8 @@
-﻿using System;
+﻿using EmlSoft.Health.Domain.Medicine;
+using System;
 using System.Collections.Generic;
-using System.Text;
-using ru.emlsoft.health.domain.Medicine;
 
-namespace ru.emlsoft.health.domain
+namespace EmlSoft.Health.Domain
 {
     public interface ITestTemplate
     {

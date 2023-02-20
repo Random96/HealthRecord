@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ru.emlsoft.HealthRecord.Properties {
+namespace EmlSoft.HealthRecord.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace ru.emlsoft.HealthRecord.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ru.emlsoft.HealthRecord.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("EmlSoft.HealthRecord.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

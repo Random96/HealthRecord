@@ -1,8 +1,8 @@
-﻿using ru.emlsoft.data;
+﻿using EmlSoft.Data;
 using System;
 using System.Linq;
 
-namespace ru.emlsoft.health.model.Person
+namespace EmlSoft.Health.model.Person
 {
     internal class Person : IKeyable
     {

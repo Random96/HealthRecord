@@ -1,11 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using EmlSoft.Data.Ef;
+using EmlSoft.Health.model.Clinic;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-using ru.emlsoft.data.ef;
-using ru.emlsoft.health.model.Clinic;
 using System;
 using System.Linq;
 
-namespace ru.emlsoft.health.model
+namespace EmlSoft.Health.model
 {
     internal class DataModel : DbContext, IDataModel
     {
@@ -26,7 +26,7 @@ namespace ru.emlsoft.health.model
                 //    Database.EnsureDeleted();
 
                 Database.EnsureCreated();
-                
+
 
                 _inited = true;
             }
@@ -66,7 +66,7 @@ namespace ru.emlsoft.health.model
 
             modelBuilder.Entity<Clinic.Clinic>().Property(x => x.Name).IsRequired().IsUnicode(true).HasMaxLength(200);
             modelBuilder.Entity<Clinic.Clinic>().Property(x => x.Description).IsUnicode(true);
-            modelBuilder.Entity<Clinic.Clinic>().HasMany(x=>x.DoctorExperiences).WithOne(x=>x.Clinic).HasForeignKey(x => x.ClinicId).IsRequired();
+            modelBuilder.Entity<Clinic.Clinic>().HasMany(x => x.DoctorExperiences).WithOne(x => x.Clinic).HasForeignKey(x => x.ClinicId).IsRequired();
 
 
 

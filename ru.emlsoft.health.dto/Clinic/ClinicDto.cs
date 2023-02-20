@@ -1,7 +1,7 @@
-﻿using System;
-using ru.emlsoft.health.domain.Clinic;
+﻿using EmlSoft.Health.Domain.Clinic;
+using System;
 
-namespace ru.emlsoft.health.dto.Clinic
+namespace EmlSoft.Health.Dto.Clinic
 {
     public class ClinicDto : IClinic
     {

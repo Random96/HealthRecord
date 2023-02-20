@@ -1,6 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using ru.emlsoft.data;
-using ru.emlsoft.health.dto;
+﻿using EmlSoft.Data;
+using Microsoft.AspNetCore.Mvc;
 
 namespace WebApi.Controllers
 {

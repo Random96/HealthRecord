@@ -1,9 +1,9 @@
-﻿using ru.emlsoft.data;
-using ru.emlsoft.health.domain.Clinic;
+﻿using EmlSoft.Data;
+using EmlSoft.Health.Domain.Clinic;
 using System;
 using System.Linq;
 
-namespace ru.emlsoft.health.model.Clinic
+namespace EmlSoft.Health.model.Clinic
 {
     internal class Clinic : IClinic, IKeyable
     {

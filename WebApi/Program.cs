@@ -1,8 +1,4 @@
-using Microsoft.Extensions.DependencyInjection;
-using ru.emlsoft.data;
-using ru.emlsoft.data.ef;
-using ru.emlsoft.data.ef.Repository;
-using ru.emlsoft.health.model;
+using EmlSoft.Health.model;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,8 +12,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddAutoMapper(typeof(ModelProfile));
 
 var connectionString = builder.Configuration.GetConnectionString("HealthDb");
-ru.emlsoft.health.model.Register.RegisterBase(builder.Services, connectionString);
-ru.emlsoft.data.ef.Register.RegisterBase(builder.Services);
+EmlSoft.Health.model.Register.RegisterBase(builder.Services, connectionString);
+EmlSoft.Data.Ef.Register.RegisterBase(builder.Services);
 
 var app = builder.Build();
 

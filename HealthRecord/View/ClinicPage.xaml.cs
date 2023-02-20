@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace ru.emlsoft.HealthRecord.View
+namespace EmlSoft.HealthRecord.View
 {
     /// <summary>
     /// Логика взаимодействия для ClinicPage.xaml

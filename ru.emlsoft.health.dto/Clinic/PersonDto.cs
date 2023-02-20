@@ -1,10 +1,8 @@
-﻿using ru.emlsoft.data;
-using ru.emlsoft.health.domain.Clinic;
+﻿using EmlSoft.Data;
+using EmlSoft.Health.Domain.Clinic;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace ru.emlsoft.health.dto.Clinic
+namespace EmlSoft.Health.Dto.Clinic
 {
     public class PersonDto : IPerson, IKeyable
     {

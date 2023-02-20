@@ -1,10 +1,8 @@
 ﻿
-using ru.emlsoft.data;
+using EmlSoft.Data;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace ru.emlsoft.health.domain.Document
+namespace EmlSoft.Health.Domain.Document
 {
     public interface IDocument : IKeyable
     {

@@ -1,8 +1,8 @@
-﻿using System;
+﻿using EmlSoft.Health.Domain.Clinic;
+using System;
 using System.Collections.Generic;
-using ru.emlsoft.health.domain.Clinic;
 
-namespace ru.emlsoft.health.dto.Clinic
+namespace EmlSoft.Health.Dto.Clinic
 {
     public class DoctorDto : PersonDto, IDoctor
     {

@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
-namespace ru.emlsoft.health.domain.Document
+namespace EmlSoft.Health.Domain.Document
 {
     internal interface IEpicris : IDocument
     {

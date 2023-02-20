@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
-using ru.emlsoft.health.dto.Clinic;
+using EmlSoft.Health.Dto.Clinic;
 using System;
 using System.Linq;
 
-namespace ru.emlsoft.health.model
+namespace EmlSoft.Health.model
 {
     public class ModelProfile : Profile
     {

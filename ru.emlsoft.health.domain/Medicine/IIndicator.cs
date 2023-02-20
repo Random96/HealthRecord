@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace ru.emlsoft.health.domain.Medicine
+namespace EmlSoft.Health.Domain.Medicine
 {
     public interface IIndicator
     {

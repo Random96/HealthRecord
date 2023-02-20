@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace ru.emlsoft.health.domain.Clinic
+namespace EmlSoft.Health.Domain.Clinic
 {
     public interface IEducation
     {

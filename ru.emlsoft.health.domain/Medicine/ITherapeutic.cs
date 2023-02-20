@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using ru.emlsoft.data;
+﻿using EmlSoft.Data;
+using System;
 
 
-namespace ru.emlsoft.health.domain.Medicine
+namespace EmlSoft.Health.Domain.Medicine
 {
     internal interface ITherapeutic : IKeyable
     {

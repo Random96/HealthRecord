@@ -1,8 +1,8 @@
-﻿using ru.emlsoft.data;
+﻿using EmlSoft.Data;
 using System;
 using System.Linq;
 
-namespace ru.emlsoft.health.model.Clinic
+namespace EmlSoft.Health.model.Clinic
 {
     internal class DoctorState : IKeyable
     {

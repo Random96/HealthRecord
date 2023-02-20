@@ -5,17 +5,17 @@ VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csproj", "{EC32E8CC-C483-48C5-A5F7-FDE21E7991C1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ru.emlsoft.health.domain", "ru.emlsoft.health.domain\ru.emlsoft.health.domain.csproj", "{87F33600-07EB-4142-A8EC-95E19D921124}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmlSoft.Health.Domain", "ru.emlsoft.health.domain\EmlSoft.Health.Domain.csproj", "{87F33600-07EB-4142-A8EC-95E19D921124}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ru.emlsoft.health.model", "ru.emlsoft.health.model\ru.emlsoft.health.model.csproj", "{71A245B2-6066-4439-B442-F8A05B2616F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmlSoft.Health.Model", "ru.emlsoft.health.model\EmlSoft.Health.Model.csproj", "{71A245B2-6066-4439-B442-F8A05B2616F8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ru.emlsoft.health.dto", "ru.emlsoft.health.dto\ru.emlsoft.health.dto.csproj", "{580886A4-17E2-4B4A-9CB8-59985BF4CA91}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ru.emlsoft.data", "..\Data\ru.emlsoft.data\ru.emlsoft.data.csproj", "{A920CB58-E1CB-4960-9066-90E43EBB7F76}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ru.emlsoft.data.ef", "..\Data\ru.emlsoft.data.ef\ru.emlsoft.data.ef.csproj", "{078061A5-AAAA-40EF-B415-5D9DD419B6F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmlSoft.Health.Dto", "ru.emlsoft.health.dto\EmlSoft.Health.Dto.csproj", "{580886A4-17E2-4B4A-9CB8-59985BF4CA91}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthRecord", "HealthRecord\HealthRecord.csproj", "{24C0566D-FBF0-4CCD-A6AE-7FDE427009B7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmlSoft.Data", "..\EfRepo\ru.emlsoft.data\EmlSoft.Data.csproj", "{9A7820B4-6282-4A20-B529-AC48FA3D19AD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmlSoft.Data.Ef", "..\EfRepo\ru.emlsoft.data.ef\EmlSoft.Data.Ef.csproj", "{9F027136-88FE-4DF1-AA9F-91BDAD6E3D43}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,18 +39,18 @@ Global
 		{580886A4-17E2-4B4A-9CB8-59985BF4CA91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{580886A4-17E2-4B4A-9CB8-59985BF4CA91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{580886A4-17E2-4B4A-9CB8-59985BF4CA91}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A920CB58-E1CB-4960-9066-90E43EBB7F76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A920CB58-E1CB-4960-9066-90E43EBB7F76}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A920CB58-E1CB-4960-9066-90E43EBB7F76}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A920CB58-E1CB-4960-9066-90E43EBB7F76}.Release|Any CPU.Build.0 = Release|Any CPU
-		{078061A5-AAAA-40EF-B415-5D9DD419B6F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{078061A5-AAAA-40EF-B415-5D9DD419B6F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{078061A5-AAAA-40EF-B415-5D9DD419B6F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{078061A5-AAAA-40EF-B415-5D9DD419B6F6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{24C0566D-FBF0-4CCD-A6AE-7FDE427009B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{24C0566D-FBF0-4CCD-A6AE-7FDE427009B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24C0566D-FBF0-4CCD-A6AE-7FDE427009B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24C0566D-FBF0-4CCD-A6AE-7FDE427009B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A7820B4-6282-4A20-B529-AC48FA3D19AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A7820B4-6282-4A20-B529-AC48FA3D19AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A7820B4-6282-4A20-B529-AC48FA3D19AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A7820B4-6282-4A20-B529-AC48FA3D19AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F027136-88FE-4DF1-AA9F-91BDAD6E3D43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F027136-88FE-4DF1-AA9F-91BDAD6E3D43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F027136-88FE-4DF1-AA9F-91BDAD6E3D43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F027136-88FE-4DF1-AA9F-91BDAD6E3D43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
