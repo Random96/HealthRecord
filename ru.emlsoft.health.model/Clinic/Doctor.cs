@@ -1,14 +1,21 @@
 ﻿using ru.emlsoft.data;
 using System;
-using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ru.emlsoft.health.model.Clinic
 {
-    internal class Doctor : IKeyable
+    internal class Doctor : Person.Person, IKeyable
     {
-        public int Id { get; set; }
+        public int StateId { get; set; }
+
+        [NotMapped]
+        public string StateName => State.Name;
+
+#pragma warning disable CS8618 
+        public DoctorState State { get; set; }
+        public virtual ICollection<Education> Educations { get; set; }
+        public virtual ICollection<Experience> Experiences { get; set; }
+#pragma warning restore CS8618 
     }
 }

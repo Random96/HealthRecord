@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using AutoMapper;
+﻿using AutoMapper;
 using ru.emlsoft.health.dto.Clinic;
+using System;
+using System.Linq;
 
 namespace ru.emlsoft.health.model
 {
